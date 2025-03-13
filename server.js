@@ -1,10 +1,8 @@
 import express from 'express';
 import { config } from 'dotenv';
-const mongoose = require('mongoose');
+
 config();
 
-// Replace <username>, <password>, and <dbname> with your actual credentials
-const dbURL = ;
 const app = express();
 
 app.use(express.json());
